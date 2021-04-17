@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+html,
+body {
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 2px;
+}
+
+.sc1 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url(https://cms.qz.com/wp-content/uploads/2020/03/lockdown-delhi-featured-e1585253957525.jpg?quality=75&strip=all&w=1600&h=900&crop=1);
+    background-size: cover;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow-y: hidden !important;
+    overflow-x: hidden !important;
+}
+
+.sec2 {
+    padding-top: 9%;
+    color: white;
+    background-image: url(https://cdn.givind.org/static/images/nonprofit/hero/saath-initiatives-for-equity-in-development_mobile.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow-y: hidden !important;
+    overflow-x: hidden !important;
+}
+
+.row {
+    padding-top: 10%;
+}
+
+.donation-meter {
+    margin-left: 30px;
+    width: 100px;
+}
+
+.glass {
+    background: #e5e5e5;
+    border-radius: 100px 100px 0 0;
+    display: block;
+    height: 300px;
+    margin: 0 35px 10px;
+    padding: 5px;
+    position: relative;
+    width: 20px;
+}
+
+.amount {
+    background: #f34e54;
+    border-radius: 100px;
+    display: block;
+    width: 20px;
+    position: absolute;
+    bottom: 5px;
+}
+
+strong {
+    display: block;
+    text-align: center;
+}
+
+.goal {
+    font-size: 30px;
+}
+
+.total {
+    font-size: 16px;
+    position: absolute;
+    right: 35px;
+}
+
+.bulb {
+    border-radius: 100px;
+    display: block;
+    height: 50px;
+    margin: 0 35px 10px;
+    padding: 5px;
+    position: relative;
+    top: -20px;
+    right: 15px;
+    width: 50px;
+}
+
+.red-circle {
+    background: #f34e54;
+    border-radius: 100px;
+    display: block;
+    height: 50px;
+    width: 50px;
+}
+
+.filler {
+    background: #f34e54;
+    border-radius: 100px 100px 0 0;
+    display: block;
+    height: 30px;
+    width: 20px;
+    position: relative;
+    top: -65px;
+    right: -15px;
+    z-index: 30;
+}
